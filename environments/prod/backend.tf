@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "dolphins-kart-dev-apps-tfstate"
     prefix = "env/prod"
   }
 }
